@@ -1,10 +1,10 @@
 /* Conteúdo do arquivo event.js */
 
-function mouseOver ()
+function mouseover ()
 {
     document.imagem.src ="gato02.jpg";
 }
-function mouseOut ()
+function mouseout ()
 {
     document.imagem.src ="gato01.jpg";
 }
