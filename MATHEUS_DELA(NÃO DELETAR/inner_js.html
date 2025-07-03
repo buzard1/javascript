@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>InnerHTML</title>
 </head>
 <body>
+    <h1>Minha página</h1>
+    <p id="demo"></p>
+    <p id="conta"></p>
     <script>
-        window.alert(5 + 6);
+        document.getElementById("demo").innerHTML = "Você chegou aqui!"
+        document.getElementById("conta").innerHTML = 5+1;
     </script>
     <center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
+    
 </body>
 </html>
