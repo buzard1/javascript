@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botão</title>
-    <script type="text/javascript" src="jquery.js"></script>
-    <script>
-       function botao1()
-       {
-        alert("Você apertou o botão 1");
-       }
-
-    </script>
+    <title>Document</title>
 </head>
 <body>
-    <input type="button" onclick="botao1 ()" value="Botão 1"/>
+  
+    <h1>Minha Página</h1>
+    <p id="demo"></p>
+    <p id="conta"></p>
+    
+    <script>
+        document.getElementById("demo").innerHTML = "Você chegou aqui!";
+        document.getElementById("conta").innerHTML = 5+1;
+    </script>
     <address>
         <center>
             Matheus Henrique Coelho Amaral
