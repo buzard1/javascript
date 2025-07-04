@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <script>
+        function Myfunction(){
+            var primeiro_numero=parseFloat(prompt("Digite o primeiro número:"));
+            let segundo_numero=parseFloat(prompt("Digite o segundo número:"));
+            let sinal=prompt("Digite o sinal: + - / *");
+            var resultado
+            if(sinal === "+"){
+                var resultado = (primeiro_numero) + (segundo_numero)
+                alert(primeiro_numero + " " + sinal + " " + segundo_numero + " = " + resultado);
+            }
+            else if(sinal == "-"){
+                var resultado = primeiro_numero - segundo_numero
+                alert(primeiro_numero + " " + sinal + " " + segundo_numero + " = " + resultado);
+            }
+            else if(sinal == "/"){
+                var resultado = primeiro_numero / segundo_numero
+                alert(primeiro_numero + " " + sinal + " " + segundo_numero + " = " + resultado);
+            }
+            else if(sinal == "*"){
+                var resultado = primeiro_numero * segundo_numero
+                alert(primeiro_numero + " " + sinal + " " + segundo_numero + " = " + resultado);
+            }
+        }
+     
+    </script>
+    <p>Clique para exibir.</p>
+    <button onclick="Myfunction()">Clique aqui</button>
+    <p id="demo"></p>
+    <center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
+</body>
+</html>
